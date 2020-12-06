@@ -12,7 +12,7 @@
 
 // var title = "Harry Potter";
 // var ...
-var title = 'Harry Potter and the Prisoner of Azkaban';
+var title = 'Gregor the Overlander';
 var pages = 386;
 
 
@@ -40,7 +40,7 @@ var movie;
 // Create a variable named "sequel", and assign it to a be a sequel of your
 // book (made up or not!). Your sequel must make use of your "title" variable from above
 
-var sequel = `Harry Potter and the Goblet of Fire, sequel to ${title}`;
+var sequel = `${title} and the Code of Claw`;
 
 
 // Initialize a new variable "isFavorite", and assign it to a boolean value indicating
