@@ -15,11 +15,14 @@ class Librarian {
       };
     };
     this.findBook = function(title) {
+      //console.log(librarian.library.shelves.Object.keys(shelves)['fantasy'][0]);
       if (branch.shelves.fantasy[0].title == title){
         return `Yes, we have ${title}`;
         checkoutBook(this.library, title, branch.shelves.fantasy[0]); //[(title['genre'])]);  //(branch, title, genre)
-      } else return `Sorry, we do not have ${title}`;
-
+      } else {
+        //console.log(this.library.Object.keys(shelves)['fantasy'][i]);
+        return `Sorry, we do not have ${title}`;
+      }
     };
   };
 
