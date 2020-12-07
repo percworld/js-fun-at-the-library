@@ -24,8 +24,12 @@ class Librarian {
         return `Sorry, we do not have ${title}`;
       }
     };
+    this.calculateLateFee = function(days) {
+      var lateFee;
+      lateFee = Math.ceil(days * 0.25);
+      return lateFee;
+    }
   };
-
 };
 
 module.exports = Librarian;
